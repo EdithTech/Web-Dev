@@ -2,19 +2,33 @@
 body{
     margin: 0;
     text-align: center;
-    font-family: 'Josefin Slab', serif;
+    font-family: 'Tinos', serif;
 
 }
 
 h1{
-    margin-top: 0px;
-    margin-bottom: 0;
+    color: #424874;
+    font-size: 90px;
+    margin: 20px auto 0 auto;
+    /* line-height: 2; */
     font-family: 'Dancing Script', cursive;
 }
 
-p{
-    font-family: 'Saira Condensed', sans-serif;
+h2{
+    color: #424874;
+    font-size: 2.5rem;
+    font-weight: normal;
+    font-family: 'Kaisei Opti', serif;
 }
+
+h3{
+    color: #7A86B6;
+    font-family: 'Kaisei Opti', serif;
+}
+
+/* p{
+    font-family: 'Saira Condensed', sans-serif;
+} */
 
 
 /* *********************** CLASS Selector**************************** */
@@ -26,23 +40,20 @@ p{
 }
 
 .mid-div{
-    
+    padding: 100px 0;
 }
 
-.bottom-div{
-    
-}
 
 .top_cloud{
     
     position: absolute;
-    right : 500px;
+    right : 400px;
     top : 50px
 }
 
 .bottom-cloud{
     position: absolute;
-    left : 500px;
+    left : 400px;
     bottom : 300px;
 
 }
@@ -52,7 +63,78 @@ p{
 }
 
 .Profile-photo{
-    width: 200px;
+    /* padding: 20px  ; */
+    width: 15%;
     border-radius: 50%;
 }
 
+.skill-photo1{
+    border-radius: 50%;
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.skill-photo2{
+    border-radius: 50%;
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+a{
+    color: #424874;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.skill-row{
+    line-height: 2;
+    text-align: left;
+    margin: 100px auto 50px auto;
+    width: 50%;
+}
+
+.btn {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 25px;
+    background: #424874;
+    padding: 7px 20px 7px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #A6B1E1;
+    text-decoration: none;
+  }
+
+
+  hr{
+    border-style: none;
+    border-top: dotted;
+    color: gray;
+    width: 10%;
+    border-width: 5px;
+  }
+
+  .contact-me{
+    line-height: 2;
+    padding: 50px;
+  }
+
+  .bottom-div{
+    padding: 50px;
+    background-color: #A6B1E1;
+  }
+
+  .right{
+    color: white;
+  }
+
+  .profile{
+    padding: 20px;
+  }
